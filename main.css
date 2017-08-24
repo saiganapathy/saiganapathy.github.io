@@ -1,0 +1,327 @@
+/* navigation bar*/
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+#main {
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.topnav {
+    position: : fixed;
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav a {
+    color: white;
+    float: left ;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav a:hover {
+    background-color: #437DC3;
+}
+
+.topnav img {
+    color: white;
+    float: right;
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+/* home*/
+
+#home {
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+    color: blue;
+}
+
+.homeimage {
+    background-color: transparent;
+    border: 100px solid transparent;
+    height: 600px;
+    width: 50%;
+    float: left;
+}
+
+.homeright {
+    background-color: transparent;
+    border: 100px solid transparent;
+    height: 600px;
+    width: 50%;
+    float: right;
+}
+
+.home-content {
+    margin-top: 215px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .home-content {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .home-content {
+        margin-top: 115px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .home-content {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .home-content {
+        margin-top: 50px;
+    }
+}
+
+.home-content h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    line-height: 14px;
+    color: whitesmoke;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 479px) {
+    .home-content h4 {
+        font-size: 14px;
+        height: 12px;
+    }
+}
+
+.home-content h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 13px;
+    font-weight: 500;
+    color: balck;
+    margin-bottom: 17px;
+}
+
+.home-content a {
+    background-color: #00bcd4;
+    border: medium none;
+    color: black;
+    font-weight: 700;
+    height: 43px;
+    padding: 10px 44px;
+    border-radius: 0;
+ 
+}
+
+.home-content a:hover {
+    background-color:orangered;
+    color: white;
+   
+}
+
+
+/* about content*/
+
+.about12 {
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.aboutcontent {
+    background-color: transparent;
+    border: 100px solid transparent;
+    height: 800px;
+    width: 50%;
+    float: left;
+}
+
+.aboutright {
+    background-color: transparent;
+    border: 100px solid transparent;
+    height: 800px;
+    width: 50%;
+    float: right;
+}
+
+
+/* resume content*/
+
+.resume {
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.resumecontent {
+    background-color: transparent;
+    border: 100px solid transparent;
+    height: 800px;
+    width: 50%;
+    float: left;
+}
+
+.resumeright {
+    background-color: transparent;
+    border: 100px solid transparent;
+    height: 800px;
+    width: 50%;
+    float: right;
+}
+
+
+/*contact*/
+
+.contactleft {
+    background-color: transparent;
+    border: 100px solid transparent;
+    height: 700px;
+    width: 50%;
+    float: left;
+}
+
+.contactright {
+    background-color: transparent;
+    border: 100px solid transparent;
+    height: 700px;
+    width: 50%;
+    float: right;
+}
+
+
+/*-- Contact Info --*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contact-info {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-info {
+        margin-bottom: 40px;
+    }
+}
+
+.contact-info>div {
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contact-info>div {
+        float: left;
+        width: 50%;
+    }
+    .contact-info>div:nth-child(2n+1) {
+        clear: both;
+    }
+}
+
+.contact-info>div:last-child {
+    margin-bottom: 0;
+}
+
+.contact-info h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 14px;
+    color: black;
+    margin-bottom: 11px;
+    margin-top: 0;
+    letter-spacing: 0.2px;
+}
+
+
+.copyright {
+    height: 60px;
+    width: 100%;
+    float: center;
+}
+
+.contentPanel,
+.modalContent {
+    width: 75%;
+    margin: 0 auto;
+    padding: 1em;
+    background: black;
+    color: white;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.inputRow,
+h2,
+.errorMessage {
+    width: 70%;
+    margin: .6em auto;
+}
+
+.inputRow input[type="text"],
+.inputRow textarea {
+    border: 0;
+    border-radius: .25em;
+    width: 15em;
+    margin-top: .6em;
+    display: inline-block;
+    padding: .25em;
+}
+
+.inputRow textarea {
+    height: 5em;
+    resize: none;
+}
+
+.inputRow button {
+    border: 0;
+    color: black;
+    background: orangered;
+    height: 2em;
+    width: 5em;
+    border-radius: .5em;
+    margin-top: 1em;
+}
